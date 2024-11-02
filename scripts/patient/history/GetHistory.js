@@ -3,7 +3,7 @@ import { check } from 'k6';
 import { BASE_URL_TEST, BASE_URL_DEMO } from '../../../config/config.js';
 
 const GET_ENDPOINTS_INPUT_HASIL_PEMERIKSAAN_PASIEN = [
-    '/inputhasil/riwayat_pemeriksaan_pasien/read?no_rm=00057025&kode_pemeriksaan=HGB&kode_rs=RS02&kode_lab=LAB_DEMO',
+    '/inputhasil/riwayat_pemeriksaan_pasien/read?no_rm=381996&kode_pemeriksaan=RBC&kode_rs=RS02&kode_lab=LAB_DEMO',
 ];
 
 export function getDataHistory() {

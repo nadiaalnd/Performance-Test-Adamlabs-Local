@@ -4,6 +4,12 @@ import { BASE_URL_TEST, BASE_URL_DEMO } from '../../../config/config.js';
 
 const GET_ENDPOINTS_ARCHIVES = [
     '/archive/arsip/read?all=&page=0&page_size=10000&start_date=&end_date=&status_pemeriksaan=&nama_unit_asal=&kode_rs=RS02',
+    '/rekapitulasi/rekap_kunjungan_pasien_reguler/read?start_date=2024-07-01&end_date=2024-07-31&jenis_registrasi=reguler&jenis_kelamin=&kode_rs=RS02&kode_lab=LAB_DEMO',
+    '/rekapitulasi/rekap_kunjungan_pasien_reguler/read?start_date=2024-07-01&end_date=2024-07-31&jenis_registrasi=cito&jenis_kelamin=&kode_rs=RS02&kode_lab=LAB_DEMO',
+    '/rekapitulasi/rekap_kunjungan_pasien_reguler/read?start_date=2024-07-22&end_date=2024-07-23&jenis_registrasi=&jenis_kelamin=&kode_rs=RS02&kode_lab=LAB_DEMO',
+    '/rekapitulasi/rekap_kunjungan_pasien_reguler/read?start_date=2024-07-01&end_date=2024-07-31&jenis_registrasi=&jenis_kelamin=&kode_rs=RS02&kode_lab=LAB_DEMO',
+    '/rekapitulasi/rekap_kunjungan_pasien_reguler/read?start_date=2024-07-01&end_date=2024-07-31&jenis_registrasi=&jenis_kelamin=L&kode_rs=RS02&kode_lab=LAB_DEMO',
+    '/rekapitulasi/rekap_kunjungan_pasien_reguler/read?start_date=2024-07-01&end_date=2024-07-31&jenis_registrasi=&jenis_kelamin=P&kode_rs=RS02&kode_lab=LAB_DEMO',
 ];
 
 export function getDataArchives() {
